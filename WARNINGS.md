@@ -1,22 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=165&section=header&text=Security%20%26%20Operational%20Safety&fontSize=29&fontAlignY=36&animation=fadeIn&fontColor=FFFFFF&color=0:120000,45:500000,100:C40000"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=165&amp;section=header&amp;text=Security%20and%20Operational%20Safety&amp;fontSize=29&amp;fontAlignY=36&amp;animation=fadeIn&amp;fontColor=FFFFFF&amp;color=0:120000,45:500000,100:C40000" />
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=14&pause=1200&color=FF6666&center=true&vCenter=true&width=760&lines=misconfiguration+may+expose+your+real+identity...;hidden+services+require+careful+isolation...;privacy+fails+usually+come+from+small+mistakes..." />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Isolation-Required-C40000?style=for-the-badge">
-<img src="https://img.shields.io/badge/Real%20IP-Can%20Leak-2A0000?style=for-the-badge">
-<img src="https://img.shields.io/badge/Operational%20Security-Critical-C40000?style=for-the-badge">
-
-<br><br>
-
-<img src="https://media.tenor.com/mCyP1bjo9S0AAAAi/mocha-bear-hearts.gif" width="48">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;weight=500&amp;size=14&amp;pause=1200&amp;color=FF6666&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=misconfiguration+may+expose+your+real+identity...;hidden+services+require+careful+isolation...;privacy+fails+usually+come+from+small+mistakes..." />
 
 </div>
+
 
 ---
 
