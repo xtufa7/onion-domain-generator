@@ -163,15 +163,14 @@ Notes:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&pause=1000&color=FF7070&center=true&vCenter=true&width=470&lines=misconfiguration+may+expose+your+real+identity...;always+test+inside+an+isolated+environment...">
-
-<br><br>
-
 <a href="./WARNINGS.md">
-<img src="https://img.shields.io/badge/Open-WARNINGS.md-B30000?style=for-the-badge" alt="Open WARNINGS.md">
+<img src="https://img.shields.io/badge/⚠️%20Security%20Guidelines-C40000?style=for-the-badge&labelColor=1A0000">
 </a>
 
 </div>
+
+
+
 
 
 ---
