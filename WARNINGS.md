@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=160&text=⚠️%20Security%20%26%20Operational%20Safety&fontSize=30&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF&color=0:120000,45:500000,100:C40000"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=165&section=header&text=Security%20%26%20Operational%20Safety&fontSize=29&fontAlignY=36&animation=fadeIn&fontColor=FFFFFF&color=0:120000,45:500000,100:C40000"/>
 
 <br>
 
@@ -11,6 +11,10 @@
 <img src="https://img.shields.io/badge/Isolation-Required-C40000?style=for-the-badge">
 <img src="https://img.shields.io/badge/Real%20IP-Can%20Leak-2A0000?style=for-the-badge">
 <img src="https://img.shields.io/badge/Operational%20Security-Critical-C40000?style=for-the-badge">
+
+<br><br>
+
+<img src="https://media.tenor.com/mCyP1bjo9S0AAAAi/mocha-bear-hearts.gif" width="48">
 
 </div>
 
@@ -78,13 +82,13 @@ Small mistakes may expose:
 
 Never share:
 
-```text id="r9w0az"
+```text id="m4k2pd"
 private_key
 ```
 
 Restrict permissions:
 
-```bash id="k4n8zp"
+```bash id="t7f9qa"
 chmod 700 /var/lib/tor/my_hidden_service/
 ```
 
