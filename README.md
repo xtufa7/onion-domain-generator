@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=155&text=🧅%20Onion%20Domain%20Generator&fontSize=33&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF&color=0:120000,45:4A0000,100:B30000"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&text=🧅%20Onion%20Domain%20Generator&fontSize=34&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF&color=0:1A0000,50:520000,100:B30000"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&pause=1200&color=FF5C5C&center=true&vCenter=true&width=720&lines=Generate+.onion+domains+using+Tor...;Hidden+service+setup+for+beginners...;Privacy-focused+Linux+workflow..." />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&pause=1200&color=FF4D4D&center=true&vCenter=true&width=700&lines=Generate+.onion+domains+using+Tor...;Hidden+service+setup+for+beginners...;Privacy-focused+Linux+workflow..." />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Linux-B30000?style=for-the-badge&logo=linux&logoColor=white">
-<img src="https://img.shields.io/badge/Tor-1A0000?style=for-the-badge">
-<img src="https://img.shields.io/badge/Guide-B30000?style=for-the-badge">
-<img src="https://img.shields.io/badge/Privacy-1A0000?style=for-the-badge">
+<img src="https://img.shields.io/badge/platform-Linux-B30000?style=for-the-badge&logo=linux&logoColor=white">
+<img src="https://img.shields.io/badge/network-Tor-1A0000?style=for-the-badge">
+<img src="https://img.shields.io/badge/type-Guide-B30000?style=for-the-badge">
+<img src="https://img.shields.io/badge/privacy-focused-1A0000?style=for-the-badge">
 
 <br><br>
 
@@ -23,17 +23,17 @@
 
 # 🧅 Onion Domain Generator
 
-A clean beginner-friendly guide for generating `.onion` domains using Tor Hidden Services.
+A clean and beginner-friendly guide to generate a `.onion` domain using Tor Hidden Services.
 
 ---
 
 ## 📌 What is an Onion Domain?
 
-An `.onion` domain is a private address inside the Tor network used for hidden services without exposing the real server identity.
+An `.onion` domain is a private address inside the Tor network used for hidden services without exposing the server’s real identity.
 
 Example:
 
-```text id="p9q8xj"
+```text
 abcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijkl.onion
 ```
 
@@ -41,7 +41,7 @@ abcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijkl.onion
 
 ## ⚙️ Requirements
 
-```text id="x4f0kq"
+```text
 Linux system
 Tor installed
 Basic terminal knowledge
@@ -53,13 +53,13 @@ Basic terminal knowledge
 
 ## Arch Linux
 
-```bash id="e4g0yt"
+```bash
 sudo pacman -S tor
 ```
 
-Official package:
+Official source:
 
-```text id="s1m8qw"
+```text
 https://archlinux.org/packages/extra/x86_64/tor/
 ```
 
@@ -67,53 +67,53 @@ https://archlinux.org/packages/extra/x86_64/tor/
 
 ## Ubuntu / Debian
 
-```bash id="v4z8lo"
+```bash
 sudo apt update
 sudo apt install tor
 ```
 
-Official download:
+Official source:
 
-```text id="h7b3pr"
+```text
 https://www.torproject.org/download/
 ```
 
 ---
 
-# 🚀 Setup
+# 🚀 Step-by-Step Setup
 
-## Configure Hidden Service
+## 1️⃣ Configure Hidden Service
 
-```bash id="d3v8ri"
+```bash
 sudo nano /etc/tor/torrc
 ```
 
 Add:
 
-```bash id="z5j1on"
+```bash
 HiddenServiceDir /var/lib/tor/my_hidden_service/
 HiddenServicePort 80 127.0.0.1:8080
 ```
 
 ---
 
-## Start Tor
+## 2️⃣ Start Tor
 
-```bash id="u7k3ab"
+```bash
 sudo systemctl start tor
 ```
 
 or:
 
-```bash id="r8x0nt"
+```bash
 tor
 ```
 
 ---
 
-## Generate Domain
+## 3️⃣ Generate Your Onion Domain
 
-```bash id="n6m0dx"
+```bash
 cd /var/lib/tor/my_hidden_service/
 cat hostname
 ```
@@ -126,7 +126,7 @@ Your `.onion` domain will be generated automatically.
 
 Run a local service on port `8080`, then open:
 
-```text id="f8j0pw"
+```text
 http://your-domain.onion
 ```
 
@@ -136,22 +136,22 @@ Use Tor Browser to access it.
 
 # 🧬 Vanity Domains
 
-Optional utility:
+Optional tool:
 
-```text id="j9y6qa"
+```text
 mkp224o
 ```
 
 Notes:
 
 * CPU intensive
-* Generation speed depends on prefix complexity
+* Generation time depends on prefix complexity
 
 ---
 
 # 📂 Directory Structure
 
-```text id="q5w9nz"
+```text
 /var/lib/tor/my_hidden_service/
 ├── hostname
 ├── private_key
@@ -163,15 +163,15 @@ Notes:
 
 <div align="center">
 
-<a href="./WARNINGS.md">
-<img src="https://img.shields.io/badge/⚠️%20Security%20Guidelines-C40000?style=for-the-badge&labelColor=1A0000">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&pause=1000&color=FF6B6B&center=true&vCenter=true&width=420&lines=misconfiguration+can+expose+your+identity...;always+test+inside+an+isolated+environment..." />
+
+<br><br>
+
+<a href="WARNINGS.md">
+<img src="https://img.shields.io/badge/⚠️%20Security%20Guidelines-B30000?style=for-the-badge&labelColor=1A0000">
 </a>
 
 </div>
-
-
-
-
 
 ---
 
@@ -183,10 +183,10 @@ For educational and privacy-focused use only.
 
 <div align="center">
 
-<img src="https://media.tenor.com/DimzPZMypFcAAAAi/love-heart.gif" width="45">
+<img src="https://media.tenor.com/DimzPZMypFcAAAAi/love-heart.gif" width="46">
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=95&section=footer&color=0:B30000,100:120000"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=95&section=footer&color=0:B30000,100:1A0000"/>
 
 </div>
